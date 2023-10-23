@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__img {
+    margin-right: 50px;
+}
+
+.header__tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+
+.header__tab:hover {
+    color: #FE7124;
+}
+
+.header__tab svg {
+    fill: #000000;
+}
+
+.header__tab_active svg {
+    fill: #FE7124;
+}
