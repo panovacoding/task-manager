@@ -1,0 +1,60 @@
+.tasks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.task-list-container {
+    border-radius: 24px;
+    border: 1px solid #000000;
+    padding: 16px;
+    min-width: 313px;
+}
+
+.task-list__title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.task-list-container h3 {
+    text-decoration: underline;
+}
+
+.task-list__title-container button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.task-list-container:nth-child(1) .task-list__title-container button:hover {
+    background: rgba(255, 124, 164, 0.44);
+    color: #FFFFFF;
+}
+
+.task-list-container:nth-child(2) .task-list__title-container button:hover {
+    background: #FFCE62;
+    color: #FFFFFF;
+}
+
+.task-list-container:nth-child(3) .task-list__title-container button:hover {
+    background: #0BC56D;
+    color: #FFFFFF;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
